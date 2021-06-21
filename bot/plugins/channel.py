@@ -68,7 +68,7 @@ async def connect(bot: Bot, update):
         pass
     
     except Exception:
-        await update.reply_text(f"My UserBot [{userbot_name}](tg://user?id={userbot_id}) Couldnt Join The Channel `{target}` Make Sure Userbot Is Not Banned There Or Add It Manually And Try Again....!!")
+        await update.reply_text(f"My UserBot [{userbot_name}](tg://user?id={userbot_id}) Couldnt Join The Channel `{target}` Make Sure Userbot Is Not Banned There Or Add It Manually And Try Again or ask me @KrAsst_Bot....!!")
         return
     
     try:
@@ -77,7 +77,7 @@ async def connect(bot: Bot, update):
         channel_name = c_chat.title
         
     except Exception as e:
-        await update.reply_text("Encountered Some Issue..Please Check Logs..!!")
+        await update.reply_text("Encountered Some Issue..Please Try again later or ask @KrAsst_Bot..!!")
         raise e
         
         
@@ -87,7 +87,7 @@ async def connect(bot: Bot, update):
         await update.reply_text("Channel Aldready In Db...!!!")
         return
     
-    wait_msg = await update.reply_text("Please Wait Till I Add All Your Files From Channel To Db\n\n<i>This May Take 10 or 15 Mins Depending On Your No. Of Files In Channel.....</i>\n\nUntil Then Please Dont Sent Any Other Command Or This Operation May Be Intrupted....")
+    wait_msg = await update.reply_text("📍 Please Wait,  Till I'm Adding All Your Files From Channel To Database.\n\n<i>This May Take 10 or 15 Mins Depending On Your No. Of Files In Channel.....</i>\n\nUntil Then Please Dont Sent Any Other Command Or This Operation May Be Intrupted....\n\n#Note :\n• If Your files will Skip, bcoz of File Name None ---> #BlameTG!...\n• So, Make Sure Your Files have Name.\n.....")
     
     try:
         type_list = ["video", "audio", "document"]
@@ -183,7 +183,7 @@ async def connect(bot: Bot, update):
 
         print(f"{skipCT} Files Been Skipped Due To File Name Been None..... #BlameTG")
     except Exception as e:
-        await wait_msg.edit_text("Couldnt Fetch Files From Channel... Please look Into Logs For More Details")
+        await wait_msg.edit_text("Couldnt Fetch Files From Channel... Please Try again later....")
         raise e
     
     await db.add_filters(data)
@@ -228,7 +228,7 @@ async def disconnect(bot: Bot, update):
             target = int(target_chat[1])
                 
     except Exception:
-        await update.reply_text("Invalid Input...\nYou Should Specify Valid chat_id(-100xxxxxxxxxx) or @username")
+        await update.reply_text("Invalid Input...\nYou Should Specify Valid chat_id(-100xxxxxxxxxx) or <code>@username</code>")
         return
     
     userbot = await bot.USER.get_me()
@@ -239,7 +239,7 @@ async def disconnect(bot: Bot, update):
         channel_info = await bot.USER.get_chat(target)
         channel_id = channel_info.id
     except Exception:
-        await update.reply_text(f"My UserBot [{userbot_name}](tg://user?id={userbot_id}) Couldnt Fetch Details Of `{target}` Make Sure Userbot Is Not Banned There Or Add It Manually And Try Again....!!")
+        await update.reply_text(f"My UserBot [{userbot_name}](tg://user?id={userbot_id}) Couldnt Fetch Details Of `{target}` Make Sure Userbot Is Not Banned There Or Add It Manually And Try Again or ask me @KrAsst_Bot...!!")
         return
     
     in_db = await db.in_db(chat_id, channel_id)
