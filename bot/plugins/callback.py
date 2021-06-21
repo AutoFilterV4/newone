@@ -177,7 +177,7 @@ async def cb_settings(bot, update: CallbackQuery):
     bot_fname= bot_status.first_name
     
     text =f"<b>👩‍💻{bot_fname}'s</b> Settings Pannel.....\n"
-    text+=f"\n<i>You Can Use This Menu To Change Connectivity And Know Status Of Your Every Connected Channel.\n• Change Filter Types,\n• Configure Filter Results And To Know Status Of Your Group...</i>"
+    text+=f"\n<i>You Can Use This Menu To Change Connectivity And Know Status Of Your Every Connected Channel.\n• Change Filter Types,\n• Configure Filter Results And To Know Status Of Your Group...</i>\n\n#Note :\n• If Your files will Skip, bcoz of File Name None ---> #BlameTG!...\n• So, Make Sure Your Files have Name.\n....."
     
     buttons = [
         [
@@ -1608,7 +1608,7 @@ async def cb_about(bot, update: CallbackQuery):
         [
             InlineKeyboardButton
                 (
-                    "My Dev ⚡", url="https://t.me/AlbertEinstein_TG"
+                    "My Dev ⚡", url="https://t.me/HKrrish"
                 ),
                 
             InlineKeyboardButton
