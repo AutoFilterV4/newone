@@ -5,13 +5,13 @@
 class Translation(object):
     
     START_TEXT = """<b>Hey {}!!</b> 👋 
-<i>I'm Just A Advance Auto Filter Bot!....😉
+<b>I'm Just A Advance Auto Filter Bot!....😉
 
 Just Add Me To Your Group And Channel And Connect Them And See My Powers!! 🔥🔥✌
 
 For More Details Click 'Help' or 'Know More' Button Below..
 ---> @HKrrish 👨‍💻
-</i>"""    
+</b>"""    
     
     HELP_TEXT = """
 <b><u>📝 How To Use Me!?</u></b>
@@ -46,13 +46,13 @@ For More Details Click 'Help' or 'Know More' Button Below..
 ---> @HKrrish 👨‍💻\n...
 """
     
-    ABOUT_TEXT = """<b>➥ 🤖 My Name</b> : <a href="https://t.me/AdvAutoFilter_Bot">👩‍🔬 Fυkαнıяє!</a>
+    ABOUT_TEXT = """<b>➥ 🤖 My Name</b> : <b><a href="https://t.me/AdvAutoFilter_Bot">👩‍🔬 Fυkαнıяє!</a></b>
     
 <b>➥ 👨‍💻 Creator</b> : <b><i><a href="https://t.me/HKrrish">This Person</a></i></b>
 
 <b>➥ 📝 Language</b> : <code>Python3</code>
 
-<b>➥ 📚 Library</b> : <i><a href="https://docs.pyrogram.org">Pyrogram Asyncio 1.13.0 </a></i>
+<b>➥ 📚 Library</b> : <a href="https://docs.pyrogram.org">Pyrogram Asyncio 1.13.0 </a>
 
-<b>➥ 🤗 Credit </b> : <b><a href="https://t.me/AlbertEinstein_TG">@AlbertEinstein_TG</a></b>
+<b>➥ 🤗 Credit </b> : @AlbertEinstein_TG
 """
