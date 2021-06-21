@@ -29,8 +29,8 @@ async def settings(bot, update):
     bot_info = await bot.get_me()
     bot_first_name= bot_info.first_name
     
-    text =f"<i>{bot_first_name}'s</i> Settings Pannel.....\n"
-    text+=f"\n<i>You Can Use This Menu To Change Connectivity And Know Status Of Your Every Connected Channel, Change Filter Types, Configure Filter Results And To Know Status Of Your Group...</i>"
+    text =f"<b>👩‍💻{bot_first_name}'s</b> ⚙️ Settings Pannel.....\n"
+    text+=f"\n<i>You Can Use This Menu To Change Connectivity And Know Status Of Your Every Connected Channel.\n• Change Filter Types,\n• Configure Filter Results And To Know Status Of Your Group...</i>\n\n#Tip\n• You Can Lock Your Group--> <code>/lock all</code>\n..."
     
     buttons = [
         [
