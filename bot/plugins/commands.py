@@ -38,7 +38,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '👨‍💻 Dev', url="https://t.me/HKrrish"
+                                    '🔰 CHANNEL 🔰', url="https://t.me/srsuggestionsmc"
                                 )
                         ]
                     ]
@@ -57,7 +57,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '👨‍💻 Dev', url="https://t.me/HKrrish"
+                                    '👨‍💻 Dev', url="https://t.me/srsuggestionsmc"
                                 )
                         ]
                     ]
@@ -76,7 +76,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '👨‍💻 Dev', url="https://t.me/HKrrish"
+                                    '👨‍💻 Dev', url="https://t.me/srsuggestionsmc"
                                 )
                         ]
                     ]
@@ -89,7 +89,7 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('👨‍💻 Dev', url='https://t.me/HKrrish'),
+        InlineKeyboardButton('👨‍💻 owner', url='https://t.me/punisherofc'),
         InlineKeyboardButton('Know More 🧾', url ='https://telegra.ph/Av-Auto-Filter-Bot-05-26')
     ],[
         InlineKeyboardButton('➕ Add me In Your Group! 🛠', url='t.me/AdvAutoFilter_Bot?startgroup=true')
