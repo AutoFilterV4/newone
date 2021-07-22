@@ -4,21 +4,16 @@
 
 class Translation(object):
     
-    START_TEXT = """<b>Hey {}!!</b> 👋 
-<b>I'm Just A Advance Auto Filter Bot!....😉
-
-Just Add Me To Your Group And Channel And Connect Them And See My Powers!! 🔥🔥✌
-
-For More Details Click 'Help' or 'Know More' Button Below..
----> @HKrrish 👨‍💻
+    START_TEXT = """<b>YA {}Mwone</b> ♥️ 
+<b> വട ഒരു അട🤗
 </b>"""    
     
     HELP_TEXT = """
-<b><u>📝 How To Use Me!?</u></b>
+<b><u>📝 പലഹാരം</u></b>
 
 <b>
--❏ Add Me To Any Group And Make Me Admin.
--❏ Add Me To Your Desired Channel.
+-❏ അഡ.
+-❏ വട
 </b>
 
 <b>📍 Bot Commands (Works Only In Groups) :</b>
@@ -43,16 +38,16 @@ For More Details Click 'Help' or 'Know More' Button Below..
             
             -> <b>Status</b> - Button Will Shows The Stats Of Your Channel.
             
----> @HKrrish 👨‍💻\n...
+---> @punisherofc 👨‍💻\n...
 """
     
-    ABOUT_TEXT = """<b>➥ 🤖 My Name</b> : <b><a href="https://t.me/AdvAutoFilter_Bot">👩‍🔬 Fυkαнıяє!</a></b>
+    ABOUT_TEXT = """<b>➥ 👹</b> : <b><a href="https://t.me/punisherofc">KOH</a></b>
     
-<b>➥ 👨‍💻 Creator</b> : <b><i><a href="https://t.me/HKrrish">This Person</a></i></b>
+<b>➥ ഇവൻ</b> : <b><i><a href="https://t.me/mnzks">ഉണ്ടാക്കി</a></i></b>
 
-<b>➥ 📝 Language</b> : <code>Python3</code>
+<b>➥mind</b> : <code>പുലി</code>
 
-<b>➥ 📚 Library</b> : <a href="https://docs.pyrogram.org">Pyrogram Asyncio 1.13.0 </a>
+<b>➥ Whatsapp</b> : <a href="https://wa.me/+919567544246">MSG ONLY</a>
 
-<b>➥ 🤗 Credit </b> : @AlbertEinstein_TG
+<b>➥ 🤗 Credit </b> : @mnzwa
 """
