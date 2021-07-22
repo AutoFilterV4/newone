@@ -87,7 +87,7 @@ async def connect(bot: Bot, update):
         await update.reply_text("Channel Aldready In Db...!!!")
         return
     
-    wait_msg = await update.reply_text("📍 Please Wait,  Till I'm Adding All Your Files From Channel To Database.\n\n<i>This May Take 10 or 15 Mins Depending On Your No. Of Files In Channel.....</i>\n\nUntil Then Please Dont Sent Any Other Command Or This Operation May Be Intrupted....\n\n#Note :\n• If Your files will Skip, bcoz of File Name None ---> #BlameTG!...\n• So, Make Sure Your Files have Name.\n.....")
+    wait_msg = await update.reply_text("🙋 Guyzz..., നമ്മുടെ ചാനലിൽ <b>DB ADD</b> ചെയ്യുകയാണ്. <b>MOVIE</b> അത്യാവശ്യം ഉള്ളവർ PM വന്നാൽ മതി..👇👇 \n \n  🕴️<b>ADMIN👉</b> @punisherofc")
     
     try:
         type_list = ["video", "audio", "document"]
